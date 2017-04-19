@@ -105,7 +105,7 @@ int main() {
 			while (indice > 9) {
 				std::cout << "Indice nao existe, por favor ensira um numero entre 0 e 9 " << std::endl;
 				std::cin >> indice;
-			}
+			}//
 			jogadores[indice].nome = "0";
 			jogadores[indice].score = "0";
 			a--;
